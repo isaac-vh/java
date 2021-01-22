@@ -11,7 +11,7 @@
 
 (function() {
 
-    var fruits = [
+    let fruits = [
         "pomme",
         "poire",
         "fraise",
@@ -24,6 +24,13 @@
         "cerise",
     ];
 
-    // your code here
+
+    fruits.push("kiwi");
+    fruits.unshift("banana");
+
+    fruits.forEach(function (item) {
+        console.log(item);
+    })
+
 
 })();

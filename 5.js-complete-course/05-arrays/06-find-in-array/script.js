@@ -88,7 +88,8 @@
             email: "gkeatche@google.fr",
         },
     ];
-
-    // your code here
+        document.getElementById("run").addEventListener("click", function (){
+            if people.
+        })
 
 })();

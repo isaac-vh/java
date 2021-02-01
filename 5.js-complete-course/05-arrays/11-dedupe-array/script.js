@@ -28,6 +28,11 @@
         "cerise",
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener("click",function () {
+        function nodub (fruits){
+            return [...new Set(fruits)];
+        }
+        console.log(new Set(fruits));
+    })
 
 })();

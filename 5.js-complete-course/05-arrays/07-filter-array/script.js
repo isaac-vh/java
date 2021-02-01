@@ -89,6 +89,10 @@
         },
     ];
 
-    // your code here
+    function checkAdult(person) {
+        console.log(person);
+        return person.age >= 18;
+    }
+    console.log(people.filter(checkAdult));
 
 })();

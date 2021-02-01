@@ -25,7 +25,14 @@
         "grapes",
         "cherry",
     ];
+console.log(fruits.indexOf("apple"))
+    document.getElementById("run").addEventListener("click",function (){
+        if (fruits.indexOf("apple")>= 0) {
+            console.log("yes");
+        } else {
+            console.log("no");
+        }
+    })
 
-    // your code here
 
 })();
